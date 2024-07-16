@@ -2,6 +2,14 @@
 
 This simple contract designed to allow users receive payments in ERC20 tokens supported by the `SignedPayment` contract, by off-chain approval (EIP712).
 
+### Preparation
+
+1. Make sure that you have `forge`, `node` and `npm` installed.
+2. Install all external dependencies and compile the smart contracts
+ ```bash
+ make prepare
+ ```
+
 ### Deployment
 
 1. Setup deployer wallet securely
@@ -16,3 +24,11 @@ This simple contract designed to allow users receive payments in ERC20 tokens su
  ```bash
  make deploy
  ```
+
+### Interaction
+
+You can generate signature to receive payment and optionally send the transaction with this signature using the command below
+
+```bash
+npm run generate-sig
+```
