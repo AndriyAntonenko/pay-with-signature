@@ -32,3 +32,8 @@ You can generate signature to receive payment and optionally send the transactio
 ```bash
 npm run generate-sig
 ```
+
+### Sepolia Addresses
+
+- `SignedPayment` - [0xcb8068902248ee70c801fbeb23ad691cf8a89172](https://sepolia.etherscan.io/address/0xcb8068902248ee70c801fbeb23ad691cf8a89172#code)
+- `ERC20Mock` - [0xD76DA61cd64299E654276ebedf16c981FaBc7EF9](https://sepolia.etherscan.io/address/0xD76DA61cd64299E654276ebedf16c981FaBc7EF9#code)
