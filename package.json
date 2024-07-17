@@ -5,7 +5,8 @@
   "main": "index.js",
   "directories": {},
   "scripts": {
-    "generate-sig": "node ./script/js/generate-signature.mjs"
+    "generate-sig": "node ./script/js/generate-signature.mjs",
+    "read-events": "node ./script/js/read-events.mjs"
   },
   "author": "",
   "license": "ISC",

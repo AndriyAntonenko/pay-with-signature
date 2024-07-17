@@ -33,6 +33,12 @@ You can generate signature to receive payment and optionally send the transactio
 npm run generate-sig
 ```
 
+Also, you can run the script to read `PaymentSent` events stating from block `6322934` (deploy block for Sepolia). To do so, run the command below. It will store all events in the file `events.json` in the root of the project.
+
+```bash
+npm run read-events
+```
+
 ### Sepolia Addresses
 
 - `SignedPayment` - [0xcb8068902248ee70c801fbeb23ad691cf8a89172](https://sepolia.etherscan.io/address/0xcb8068902248ee70c801fbeb23ad691cf8a89172#code)
